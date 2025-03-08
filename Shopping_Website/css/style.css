@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: red;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+   list-style: none;
+   padding: 36px 30px;
+   text-decoration: none;
+   color: white;
+}
+
+ .rightNav{
+    width: 40%;
+     display: flex;
+     align-items: right;
+}
+
+.rightNav li{
+    list-style: none;
+    padding: 39px 30px;
+}
+
+.rightNav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightNav li a:hover{
+    text-decoration: none;
+    color: grey;
+ }
+
+ .firstSection{
+     height: auto;
+     margin-left: auto;
+    margin-right: auto;
+    background: whitesmoke;
+ }
+
+ .box-main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     max-width: 50%;
+     margin: auto;
+     height: 150vh;
+ }
+
+ .firstHalf{
+width:90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+ }
+
+ .secondHalf{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     }
+
+ .secondHalf video{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: block;
+ }
+
+ .text-big{
+font-size: 25px;
+font-weight: bold;
+color:rgb(51, 51, 88);
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .text-small{
+font-size: 13px;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .text-big-yellow{
+font-size: 20px;
+font-weight: bold;
+color: rgb(255, 217, 0);
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .contact{
+    background-color: rgb(25, 70, 95);
+    
+ }
+
+ .containercontact{
+color: white;
+ }
+
+ .containercontact a{
+     color: darkblue;
+     text-decoration: underline;
+ }
+
+ .productnavbar{
+    display: flex;
+    max-width: 50%;
+    margin: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+ .productNav{
+    width: 50%;
+     display: flex;
+}
+
+.productNav li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.productNav li a{
+    color:darkcyan;
+    text-decoration: underline;
+}
+
+.productNav li a:hover{
+    color: grey;
+ }
+
+ .hoodie{
+     color: rgb(236, 222, 17);
+     font-size: 3vh;
+     font-weight: bold;
+ }
+
+ .text-gray-600{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.btn{
+    background-color:rgb(134, 152, 170);
+    color: black;
+    border: 2px solid gray;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 2px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.boxMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: auto;
+}
+
+.burger{
+    display:none;
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+}
+
+.line{
+    width: 30px;
+    background-color: rgb(51, 51, 88);
+    height: 3.5px;
+    margin: 3px 3px;
+}
+
+.navbarHid{
+    display: flex;
+    cursor: pointer;
+    background-color: grey;
+    }
+
+.rightNavHid{
+    width: 40%;
+    display: flex;
+    align-items: right;
+}
+
+.rightNavHid li{
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.rightNavHid li a{
+    text-decoration: none;
+    color: white;
+}
+
+.rightNavHid li a:hover{
+    color: grey;
+}
+
+@media only screen and (max-width: 720px) {
+    .rightNav{
+        flex-direction: column;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav{
+        height: 72px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+}
+
+.c-class{
+    opacity: 0;
+}
+
+.py-24 {
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+    background: whitesmoke;
+    }
+
+    .Section{
+        height: 50vh;
+        margin-left: auto;
+       margin-right: auto;
+    }
+   
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 70%;
+        margin: auto;
+        height: auto;
+    }
+   
+    .Half{
+   width:90%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    }
+
+    .text{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+         }
+   
